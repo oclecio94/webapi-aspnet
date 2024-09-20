@@ -1,33 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\oclecio\\Desktop\\webapi-aspnet\\webapi-aspnet.csproj": {}
+    "C:\\Users\\Clecio\\Desktop\\webapi-aspnet\\webapi-aspnet.csproj": {}
   },
   "projects": {
-    "C:\\Users\\oclecio\\Desktop\\webapi-aspnet\\webapi-aspnet.csproj": {
+    "C:\\Users\\Clecio\\Desktop\\webapi-aspnet\\webapi-aspnet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\oclecio\\Desktop\\webapi-aspnet\\webapi-aspnet.csproj",
+        "projectUniqueName": "C:\\Users\\Clecio\\Desktop\\webapi-aspnet\\webapi-aspnet.csproj",
         "projectName": "webapi-aspnet",
-        "projectPath": "C:\\Users\\oclecio\\Desktop\\webapi-aspnet\\webapi-aspnet.csproj",
-        "packagesPath": "C:\\Users\\oclecio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\oclecio\\Desktop\\webapi-aspnet\\obj\\",
+        "projectPath": "C:\\Users\\Clecio\\Desktop\\webapi-aspnet\\webapi-aspnet.csproj",
+        "packagesPath": "C:\\Users\\Clecio\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Clecio\\Desktop\\webapi-aspnet\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\oclecio\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Clecio\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -35,11 +32,16 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
@@ -81,6 +83,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.29, 6.0.29]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.29, 6.0.29]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.29, 6.0.29]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.29, 6.0.29]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -89,7 +109,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     }
